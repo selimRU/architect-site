@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: seashell;
+    height: 150vh;
+    padding: 0px 0px 50px 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 50px;
+}
+
+.banner-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.banner-details {
+    text-align: center;
+}
+
+.btn-explore {
+    display: flex;
+    margin: auto;
+    padding: 8px 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 195, 83);
+}
+
+.banner-img {
+    height: 500px;
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 300px;
+    gap: 10px;
+}
+
+.feature-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.feature-img-container img {
+    width: 95%;
+}
+
+.feature-title {
+    font-size: 30px;
+}
+
+.feature {
+    color: rgb(255, 195, 83);
+}
+
+.feature-title .quick {
+    color: gainsboro;
+}
+
+.feature-container2 {
+    display: flex;
+    padding: 70px 260px;
+    gap: 50px;
+}
+
+.details-container2 {
+    width: 100%;
+}
+
+.feature-title2 {
+    border-left: 2px solid orange;
+}
+
+.feature-container2 img {
+    width: 100%;
+    height: 90%;
+}
+
+.version {
+    border: rgb(255, 255, 255);
+    box-shadow: 10px 10px 20px 1px;
+    border-radius: 3px;
+    padding: 8px 30px;
+    margin-top: 10px;
+
+
+}
+
+p {
+    font-size: 12px;
+    color: gray;
+}
+
+.facts-container {
+    margin: 20px 250px;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.fact {
+    border: 1px solid orange;
+    width: 150px;
+    height: 150px;
+   justify-content: center;
+   text-align: center;
+    margin-top: 15px;
+}
+.fact-img{
+  width: 20%;
+  margin-bottom: -15px;
+  margin-top: 30px;
+}
+.fact h2{
+  margin-bottom: -15px;
+}
+.fact h4{
+    color: gray;
+}
