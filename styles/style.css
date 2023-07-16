@@ -199,15 +199,18 @@ p {
     text-align: center;
     margin: 35px 0px;
 }
-
+.img-sponsors{
+    width: 60%;
+}
 .sponsors-details h3 {
     font-size: 40px;
 }
 
 .sponsors-img-container {
     display: flex;
-    justify-content: space-evenly;
-    margin: 0px 175px 60px 175px;
+    justify-content: center;
+    margin: 0px 85px 60px 190px;
+    gap: 10px;
 }
 
 .footer-container {
